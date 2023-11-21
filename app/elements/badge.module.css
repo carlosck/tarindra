@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+
+
+.stage{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px;
+    z-index: 2;
+    background-color: white;
+}
+.leftcontainer{
+    display: flex;
+}
+.contentcontainer{
+    padding: 45px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.contentTitle{
+    font-size: 40px;
+    text-align: center;
+}
+.contentDescription{
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+}
+.masinfoButton{
+    font-size: 18px;
+    margin-top: 25px;
+    text-align: right;
+}
+.stageBG{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    background-color: #00d0d0;
+    z-index: 1;
+}
+@media (min-width: 1024px) {
+    .stage{
+        width: 768px;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 10px;
+    }
+    .contentcontainer{
+        padding: 45px 15px;
+        width: 270px;
+    }
+    .masinfoButton{
+        text-align: left;
+    }
+}
