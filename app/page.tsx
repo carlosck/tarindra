@@ -4,6 +4,7 @@ import Menu from './elements/menu'
 import Header from './elements/header'
 import Badge from './elements/bagde'
 import Products from './elements/products'
+import Clients from './elements/clients'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Header />
       <Badge />
       <Products />
+      <Clients />
       {/* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
