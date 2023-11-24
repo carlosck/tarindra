@@ -10,6 +10,7 @@ import Facilities from './elements/facilities'
 import Footer from './elements/footer'
 
 export default function Home() {
+  
   return (
     <main className={styles.main}>
       <Menu />

@@ -7,7 +7,9 @@ export default function Contact(){
     const render = (status: Status) => {
         return <h1>{status}</h1>;
       };
-      const apikey= process.env.GOOGLE_API_KEY ?? '' 
+       
+
+      
     return(
         <div className={styles.container}>
             <div className={styles.stage}>
@@ -25,7 +27,7 @@ export default function Contact(){
                             </div>
                         </div>
                         <div className={styles.locationright}>
-                            <Wrapper apiKey={apikey} render={render}>
+                            <Wrapper apiKey={process.env.GOOGLE_API_KEY?? ''} render={render}>
                                 <ContactMap />
                             </Wrapper>
                         
