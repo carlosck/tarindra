@@ -24,7 +24,7 @@ export default function Products(){
                         </div>
                         <div className={styles.name}>Abierta</div>
                         <div className={styles.productDescription}>
-                            <p>2 vias de entarda</p>
+                            <p>2 vias de entrada</p>
                             <p>Extremidades cortadas</p>
                             (Almacenes)
                         </div>
@@ -41,8 +41,8 @@ export default function Products(){
                         </div>
                         <div className={styles.name}>Abierta</div>
                         <div className={styles.productDescription}>
-                            <p>2 vias de entarda</p>
-                            <p>Extremidades cortadas</p>
+                            <p>2 vias de entrada</p>
+                            <p>Extremidades largas</p>
                             (Almacenes)
                         </div>
                     </div>
@@ -56,11 +56,11 @@ export default function Products(){
                                 height={211}
                             />
                         </div>
-                        <div className={styles.name}>Abierta</div>
+                        <div className={styles.name}>Cerrada</div>
                         <div className={styles.productDescription}>
-                            <p>2 vias de entarda</p>
-                            <p>Extremidades cortadas</p>
-                            (Almacenes)
+                            <p>2 vias de entrada</p>
+                            <p>(Terminal cargo)</p>
+                            
                         </div>
                     </div>
                     <div className={styles.item}>
@@ -73,11 +73,10 @@ export default function Products(){
                                 height={211}
                             />
                         </div>
-                        <div className={styles.name}>Abierta</div>
+                        <div className={styles.name}>Cerrada</div>
                         <div className={styles.productDescription}>
-                            <p>2 vias de entarda</p>
-                            <p>Extremidades cortadas</p>
-                            (Almacenes)
+                            <p>2 vias de entrada</p>
+                            <p>(Export Almacenes)</p>
                         </div>
                     </div>
                     <div className={styles.item}>
@@ -90,11 +89,29 @@ export default function Products(){
                                 height={211}
                             />
                         </div>
-                        <div className={styles.name}>Abierta</div>
+                        <div className={styles.name}>Con techo</div>
                         <div className={styles.productDescription}>
-                            <p>2 vias de entarda</p>
-                            <p>Extremidades cortadas</p>
-                            (Almacenes)
+                            <p>2 vias de entrada</p>
+                            <p>(Export)</p>
+                            
+                        </div>
+                    </div>
+                    
+                    <div className={styles.item}>
+                        <div className={styles.productcontainer}>
+                            <Image
+                                src="/producto.png"
+                                alt="Tarindra Producto"
+                                className={styles.product}
+                                width={427}
+                                height={211}
+                            />
+                        </div>
+                        <div className={styles.name}>US Stringer cerrada</div>
+                        <div className={styles.productDescription}>
+                            <p>4 vias de entrada</p>
+                            <p>(Export, almacenes)</p>
+                            
                         </div>
                     </div>
                     <div className={styles.item}>
@@ -107,11 +124,10 @@ export default function Products(){
                                 height={211}
                             />
                         </div>
-                        <div className={styles.name}>Abierta</div>
+                        <div className={styles.name}>Doble cara</div>
                         <div className={styles.productDescription}>
-                            <p>2 vias de entarda</p>
-                            <p>Extremidades cortadas</p>
-                            (Almacenes)
+                            <p>4 vias de entrada</p>
+                            <p>(Export, almacenes)</p>
                         </div>
                     </div>
                     <div className={styles.item}>
@@ -124,11 +140,10 @@ export default function Products(){
                                 height={211}
                             />
                         </div>
-                        <div className={styles.name}>Abierta</div>
+                        <div className={styles.name}>Doble cara</div>
                         <div className={styles.productDescription}>
-                            <p>2 vias de entarda</p>
-                            <p>Extremidades cortadas</p>
-                            (Almacenes)
+                            <p>4 vias de entrada</p>
+                            <p>(Export, almacenes)</p>
                         </div>
                     </div>
                     <div className={styles.item}>
@@ -141,28 +156,10 @@ export default function Products(){
                                 height={211}
                             />
                         </div>
-                        <div className={styles.name}>Abierta</div>
+                        <div className={styles.name}>Euro cerrada</div>
                         <div className={styles.productDescription}>
-                            <p>2 vias de entarda</p>
-                            <p>Extremidades cortadas</p>
-                            (Almacenes)
-                        </div>
-                    </div>
-                    <div className={styles.item}>
-                        <div className={styles.productcontainer}>
-                            <Image
-                                src="/producto.png"
-                                alt="Tarindra Producto"
-                                className={styles.product}
-                                width={427}
-                                height={211}
-                            />
-                        </div>
-                        <div className={styles.name}>Abierta</div>
-                        <div className={styles.productDescription}>
-                            <p>2 vias de entarda</p>
-                            <p>Extremidades cortadas</p>
-                            (Almacenes)
+                            <p>4 vias de entrada</p>
+                            <p>(Export, almacenes)</p>
                         </div>
                     </div>
                 </div>

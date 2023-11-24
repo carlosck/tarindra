@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    background-color: #00d0d0;
+}
+.stage{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px;
+    z-index: 2;
+    max-width: 1024px;
+}
+.title{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+.videocontainer{
+    width: 100%;
+}
+.video{
+    width: 100%;
+}

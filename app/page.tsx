@@ -5,6 +5,9 @@ import Header from './elements/header'
 import Badge from './elements/bagde'
 import Products from './elements/products'
 import Clients from './elements/clients'
+import Contact from './elements/contact'
+import Facilities from './elements/facilities'
+import Footer from './elements/footer'
 
 export default function Home() {
   return (
@@ -14,6 +17,9 @@ export default function Home() {
       <Badge />
       <Products />
       <Clients />
+      <Facilities />
+      <Contact />
+      <Footer />
       {/* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;

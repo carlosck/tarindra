@@ -7,7 +7,7 @@
 }
 .logocontainer{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
 }
 .stage{
     padding: 65px 10px 25px;

@@ -1,0 +1,75 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+.stage{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px;
+    z-index: 2;
+    background-color: white;
+    max-width: 1024px;
+}
+.title{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+.locationInfo{
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+}
+.locationcontainer{
+    display: flex;
+    flex-direction: column;
+}
+.locationleft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.locationright{
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: 400px;
+}
+.contactcontainer{
+    display: flex;
+    flex-direction: column;
+}
+.contactItem{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    text-align: center;
+}
+@media (min-width: 1024px){
+    .title{
+        font-size: 50px;
+    }
+    .locationInfo{
+        width: 100%;
+    }
+    .locationcontainer{
+        width: 100%;
+        flex-direction: row;
+    }
+    .locationleft{
+        justify-content: center;
+        padding: 0 20px;
+    }
+    .contactcontainer{
+        padding-top: 50px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
