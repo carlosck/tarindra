@@ -5,7 +5,7 @@ import styles from './contact_map.module.css';
 
 export default function ContactMap(){
     
-    const [map, setMap] = useState();
+    const [map, setMap] = useState<google.maps.Map>();
     const ref = useRef(null);
     useEffect(() => {
         if (ref.current && !map) {
