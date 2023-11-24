@@ -8,7 +8,7 @@ export default function Facilities(){
                     Nuestras Instalaciones
                 </div>
                 <div className={styles.videocontainer}>
-                <video className={styles.video} autoPlay loop muted playsinline>
+                <video className={styles.video} autoPlay loop muted playsInline>
                     <source src="/Video vista general aerea Patio TARINDRA.mp4" />
                 </video>
                 </div>
