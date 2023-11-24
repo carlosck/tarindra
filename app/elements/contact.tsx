@@ -24,7 +24,7 @@ export default function Contact(){
                             </div>
                         </div>
                         <div className={styles.locationright}>
-                            <Wrapper apiKey={"AIzaSyB7MD8Pj3wjLLDGAApkINtkAvG0FJHkCKE"} render={render}>
+                            <Wrapper apiKey={process.env.GOOGLE_API_KEY} render={render}>
                                 <ContactMap />
                             </Wrapper>
                         
