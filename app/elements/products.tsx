@@ -8,14 +8,14 @@ export default function Products(){
                 <div className={styles.header}>
                     <h2 className={styles.title}>Nuestros Productos</h2>
                     <p className={styles.description}>
-                        Contamos con mas de 20 a;os de trayectoria dando atencion a equipos de todas las marcas y capacidades
+                        Contamos con mas de 20 años de trayectoria dando atención a equipos de todas las marcas y capacidades
                     </p>
                 </div>
                 <div className={styles.itemsContainer}>
                     <div className={styles.item}>
                         <div className={styles.productcontainer}>
                             <Image
-                                src="/producto.png"
+                                src="/tarimas/tarindra-productos-_0000_Abierta-Cortadas.png"
                                 alt="Tarindra Producto"
                                 className={styles.product}
                                 width={427}
@@ -32,7 +32,7 @@ export default function Products(){
                     <div className={styles.item}>
                         <div className={styles.productcontainer}>
                             <Image
-                                src="/producto.png"
+                                src="/tarimas/tarindra-productos-_0001_Abierta-Largas.png"
                                 alt="Tarindra Producto"
                                 className={styles.product}
                                 width={427}
@@ -49,7 +49,7 @@ export default function Products(){
                     <div className={styles.item}>
                         <div className={styles.productcontainer}>
                             <Image
-                                src="/producto.png"
+                                src="/tarimas/tarindra-productos-_0002_Cerrada-Cargo.png"
                                 alt="Tarindra Producto"
                                 className={styles.product}
                                 width={427}
@@ -66,7 +66,7 @@ export default function Products(){
                     <div className={styles.item}>
                         <div className={styles.productcontainer}>
                             <Image
-                                src="/producto.png"
+                                src="/tarimas/tarindra-productos-_0003_Cerrada-7.png"
                                 alt="Tarindra Producto"
                                 className={styles.product}
                                 width={427}
@@ -82,7 +82,7 @@ export default function Products(){
                     <div className={styles.item}>
                         <div className={styles.productcontainer}>
                             <Image
-                                src="/producto.png"
+                                src="/tarimas/tarindra-productos-_0004_Con-Techo.png"
                                 alt="Tarindra Producto"
                                 className={styles.product}
                                 width={427}
@@ -100,7 +100,7 @@ export default function Products(){
                     <div className={styles.item}>
                         <div className={styles.productcontainer}>
                             <Image
-                                src="/producto.png"
+                                src="/tarimas/tarindra-productos-_0005_Us-Stringer.png"
                                 alt="Tarindra Producto"
                                 className={styles.product}
                                 width={427}
@@ -117,7 +117,7 @@ export default function Products(){
                     <div className={styles.item}>
                         <div className={styles.productcontainer}>
                             <Image
-                                src="/producto.png"
+                                src="/tarimas/tarindra-productos-_0006_Doble-Cara-5.png"
                                 alt="Tarindra Producto"
                                 className={styles.product}
                                 width={427}
@@ -133,7 +133,7 @@ export default function Products(){
                     <div className={styles.item}>
                         <div className={styles.productcontainer}>
                             <Image
-                                src="/producto.png"
+                                src="/tarimas/tarindra-productos-_0007_Doble-Cara-8.png"
                                 alt="Tarindra Producto"
                                 className={styles.product}
                                 width={427}
@@ -149,7 +149,7 @@ export default function Products(){
                     <div className={styles.item}>
                         <div className={styles.productcontainer}>
                             <Image
-                                src="/producto.png"
+                                src="/tarimas/tarindra-productos-_0008_Euro-Cerrada.png"
                                 alt="Tarindra Producto"
                                 className={styles.product}
                                 width={427}

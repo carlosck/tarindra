@@ -28,6 +28,7 @@
 .logocontainer{
     font-weight: 700;
     text-transform: uppercase;
+    font-size: 28px;
 }
 .menuSectionContainer{
     display: flex;

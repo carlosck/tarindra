@@ -8,7 +8,7 @@ export default function Badge(){
             <div className={styles.stage}>
                 <div className={styles.badgecontainer}>
                     <Image
-                        src="/badge.png"
+                        src="/tarindra-certificado.png"
                         alt="Tarindra Badge"
                         className={styles.badge}
                         width={252}

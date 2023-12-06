@@ -7,7 +7,7 @@ export default function Header(){
             <div className={styles.stage}>
                 <div className={styles.logocontainer}>
                     <Image
-                        src="/tarindra_header_logo.png"
+                        src="/tarindra-intro-logo.svg"
                         alt="Tarindra Logo"
                         className={styles.logo}
                         width={537}
@@ -21,7 +21,7 @@ export default function Header(){
                 </div>
                 <div className={styles.productcontainer}>
                     <Image
-                        src="/producto.png"
+                        src="/tarimas/tarindra-intro-tarima.png"
                         alt="Tarindra Producto"
                         className={styles.product}
                         width={427}
