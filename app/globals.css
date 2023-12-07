@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -45,8 +46,19 @@
        url('/font/22514631551-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+@font-face {
+  font-family: 'monument';
+  src: url('/font/monumentextended-ultrabold-webfont.woff2') format('woff2'),
+       url('/font/monumentextended-ultrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
 }
+
+
+
+
 html{
   font-family: 'bebas';
   letter-spacing: .12em ;

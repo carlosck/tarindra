@@ -1,7 +1,8 @@
 .menu{
     display: flex;
     width: 100%;
-    justify-content: center
+    justify-content: center;
+    font-family: 'monument';
 }
 
 .menuStage{
@@ -12,7 +13,7 @@
     
 }
 .menuLeft{
-    width: 100px;
+    
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -21,17 +22,18 @@
 .menuRight{
     display: flex;
     align-items: center;
-    justify-content: center;
     flex: 1;
-    justify-content: space-evenly;
+    justify-content: right;
+    padding-right: 15px;
 }
 .logocontainer{
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 28px;
+    font-size: 18px;
 }
 .menuSectionContainer{
     display: flex;
+    font-family: 'Roboto';
 }
 .menuSection{
     display: none;
@@ -39,15 +41,29 @@
 }
 .phonecontainer p {
     font-weight: 800;
+    font-family: 'Roboto';
 }
 
 @media (min-width: 1024px) {
+    .menuRight{
+        justify-content: space-between;
+    }
+    .logocontainer{
+        font-size: 24px;
+    }
+    .phonecontainer p{
+        font-size: 20px;
+        padding-right: 24px;
+    }
+    .menuSection{
+        font-size: 18px;
+    }
     .menuStage{
         max-width: 1024px;
         padding:  10px 0;
     }
     .menuLeft{
-        width: 140px;
+        width: 250px;
     }
     .menuSection{
         display: flex;

@@ -24,7 +24,6 @@ export default function Badge(){
                     Teniendo nuestra marca  para ese propósito MX HT 343.
 
                     </p>
-                    <a href="#" className={styles.masinfoButton}>Mas Info ----</a>
                 </div>
             </div>
             

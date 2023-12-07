@@ -33,6 +33,7 @@
     font-size: 18px;
     text-align: center;
     line-height: 25px;
+    letter-spacing: 1px;
 }
 .masinfoButton{
     font-size: 18px;
@@ -60,6 +61,12 @@
     }
     .masinfoButton{
         text-align: left;
+    }
+    .contentDescription{
+        text-align: left;
+    }
+    .contentTitle{
+        text-align-last: left;
     }
 }
 

@@ -30,6 +30,7 @@
     text-align: center;
     margin-top: 30px;
     margin-bottom: 50px;
+    font-family: 'Roboto';
 }
 .itemsContainer{
     display: flex;
@@ -57,12 +58,14 @@
     text-transform: uppercase;
     margin-top: 20px;
     text-align: center;
-    min-height: 68px;
+    min-height: 60px;
+    
 }
 .productDescription{
     display: flex;
     flex-direction: column;
     padding-bottom: 40px;
+    text-align: center;
 }
 .productDescription p{
     font-size: 18px;
@@ -71,5 +74,15 @@
 @media (min-width: 1024px) {
     .product{
         width: 280px;
+    }
+    .title{
+        font-size: 50px;
+    }
+    .description{
+        font-size: 24px;
+    }
+    .productDescription p{
+        font-size: 20px;
+        line-height: 27px;
     }
 }

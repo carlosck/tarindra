@@ -5,7 +5,7 @@ export default function Footer(){
         <div className={styles.container}>
             <div className={styles.stage}>
                 <div className={styles.title}>
-                    Tarindra @ 2023.
+                    Tarindra 2024.
                 </div>
             </div>
         </div>

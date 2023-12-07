@@ -33,18 +33,7 @@ export default function Contact(){
                         
                         </div>
                     </div>
-                    <div className={styles.contactcontainer}>
-                        <div className={styles.contactItem}>
-                            <div className={styles.contactname}>Juan Lopez</div>
-                            <div className={styles.contactPhone}>844 2711782</div>
-                            <a href='mailto:administracion@tarindra.com' className={styles.contactmail}>administracion@tarindra.com</a>
-                        </div>
-                        <div className={styles.contactItem}>
-                            <div className={styles.contactname}>Juan Lopez</div>
-                            <div className={styles.contactPhone}>844 4444 444</div>
-                            <div className={styles.contactmail}>admin@tarindra.com</div>
-                        </div>
-                    </div>
+                    
                 </div>
                 
             </div>
