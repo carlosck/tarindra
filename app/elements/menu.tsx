@@ -1,19 +1,9 @@
-'use client';
-import styles from './menu.module.css';
-import { useRef } from 'react';
-export default function Menu(){
 
-    const quienesSomosMenu = useRef(null);
+import styles from './menu.module.css';
+
+export default function Menu(props:any){
+
     
-    function gotoQuienesSomos(){
-        console.log('gotoQuienesSomos');
-    }
-    function gotoProductos(){
-        console.log('gotoProductos');
-    }
-    function gotoContacto(){
-        console.log('gotoContacto');
-    }
     return(
         <div className={styles.menu}>
             <div className={styles.menuStage}>
@@ -24,18 +14,18 @@ export default function Menu(){
                 </div>
                 <div className={styles.menuRight}>
                     <div className={styles.menuSectionContainer}>
-                        <div className={styles.menuSection} onClick={gotoQuienesSomos}>
+                        <a className={styles.menuSection} onClick={props.gotoQuienesSomos}>
                             Quienes Somos
-                        </div>
-                        <div className={styles.menuSection} onClick={gotoProductos}>
+                        </a>
+                        <div className={styles.menuSection} onClick={props.gotoProductos}>
                             Productos
                         </div>
-                        <div className={styles.menuSection} onClick={gotoContacto}>
+                        <div className={styles.menuSection} onClick={props.gotoContacto}>
                             Contacto
                         </div>
                     </div>
                     <div className={styles.phonecontainer}>
-                        <p>844 2444 44 44</p>
+                        <p>844 2711782</p>
                     </div>
                 </div>
             </div>

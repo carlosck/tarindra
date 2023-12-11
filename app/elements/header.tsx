@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import styles from './header.module.css'
-export default function Header(){
+export default function Header(props:any){
     return(
 
-        <div className={styles.container}>
+        <div className={styles.container} ref={props.quienesSomosRef}>
             <div className={styles.stage}>
                 <div className={styles.logocontainer}>
                     <Image

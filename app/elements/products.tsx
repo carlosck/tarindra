@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import styles from './products.module.css'
 
-export default function Products(){
+export default function Products(props:any){
     return(
-        <div className={styles.container}>
+        <div className={styles.container} id='productos' ref={props.productosRef}>
             <div className={styles.stage}>
                 <div className={styles.header}>
                     <h2 className={styles.title}>Nuestros Productos</h2>
