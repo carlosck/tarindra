@@ -12,8 +12,8 @@ export default function ContactMap({children}:any ){
         if (ref.current && !map) {
           setMap(new window.google.maps.Map(ref.current, {
             'center':{
-                lat: 25.5362889,
-                lng: -100.9711059
+                lat: 25.53606137053051,
+                lng: -100.9711058766305
             },
             'zoom':14
         }));

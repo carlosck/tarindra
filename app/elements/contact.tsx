@@ -29,8 +29,8 @@ export default function Contact(props:any){
                             <Wrapper apiKey={process.env.GOOGLE_API_KEY?? ''} render={render}>
                                 <ContactMap >
                                     <Marker position={{
-                                    lat: 25.5359513,
-                                    lng: -100.9736716
+                                    lat: 25.53606137053051,
+                                    lng: -100.9711058766305
                                 }} />
                                 </ContactMap>
                             </Wrapper>
