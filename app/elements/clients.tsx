@@ -17,26 +17,7 @@ export default function Clients(){
             <div className={styles.containerclients}>
                 <div className={styles.containerBG}></div>
                 <div className={styles.stageclients}>
-                    <div className={styles.client}>
-                        <Image
-                            src="/clients/LOGO_DIKEN_2023.png"
-                            alt="Diken"
-                            className={styles.clientLogo}
-                            width={161}
-                            height={137}
-                            priority
-                        />
-                    </div>
-                    <div className={styles.client}>
-                        <Image
-                            src="/clients/LOGO_DIKEN_2023.svg"
-                            alt="Diken"
-                            className={styles.clientLogo}
-                            width={161}
-                            height={137}
-                            priority
-                        />
-                    </div>
+                    
                     <div className={styles.client}>
                         <Image
                             src="/clients/png/zappa.png"
@@ -57,26 +38,8 @@ export default function Clients(){
                             priority
                         />
                     </div>
-                    <div className={styles.client}>
-                        <Image
-                            src="/clients/png/Venture Steel.webp"
-                            alt="Venture Steel"
-                            className={styles.clientLogo}
-                            width={161}
-                            height={137}
-                            priority
-                        />
-                    </div>
-                    <div className={styles.client}>
-                        <Image
-                            src="/clients/png/Cooper Standard.jpeg"
-                            alt="Cooper Standard"
-                            className={styles.clientLogo}
-                            width={161}
-                            height={137}
-                            priority
-                        />
-                    </div>
+                    
+                    
                     <div className={styles.client}>
                         <Image
                             src="/clients/png/ZF_Sachs_logo.svg.png"
@@ -117,26 +80,8 @@ export default function Clients(){
                             priority
                         />
                     </div>
-                    <div className={styles.client}>
-                        <Image
-                            src="/clients/png/kromet.jpeg"
-                            alt="kromet"
-                            className={styles.clientLogo}
-                            width={161}
-                            height={137}
-                            priority
-                        />
-                    </div>
-                    <div className={styles.client}>
-                        <Image
-                            src="/clients/png/A-M MEX.png"
-                            alt="A-M MEX.png"
-                            className={styles.clientLogo}
-                            width={161}
-                            height={137}
-                            priority
-                        />
-                    </div>
+                    
+                    
                     <div className={styles.client}>
                         <Image
                             src="/clients/png/MAhle.webp"
@@ -157,16 +102,7 @@ export default function Clients(){
                             priority
                         />
                     </div>
-                    <div className={styles.client}>
-                        <Image
-                            src="/clients/png/Alanis.png"
-                            alt="Alanis"
-                            className={styles.clientLogo}
-                            width={161}
-                            height={137}
-                            priority
-                        />
-                    </div>
+                    
                     <div className={styles.client}>
                         <Image
                             src="/clients/png/askoll-logo2.png"
@@ -187,26 +123,8 @@ export default function Clients(){
                             priority
                         />
                     </div>
-                    <div className={styles.client}>
-                        <Image
-                            src="/clients/png/neapco logo2.png"
-                            alt="neapco logo"
-                            className={styles.clientLogo}
-                            width={161}
-                            height={137}
-                            priority
-                        />
-                    </div>
-                    <div className={styles.client}>
-                        <Image
-                            src="/clients/png/sanhua-logo-vector.png"
-                            alt="sanhua-logo"
-                            className={styles.clientLogo}
-                            width={161}
-                            height={137}
-                            priority
-                        />
-                    </div>
+                    
+                    
                     <div className={styles.client}>
                         <Image
                             src="/clients/png/TitanX simple.png"
@@ -217,26 +135,8 @@ export default function Clients(){
                             priority
                         />
                     </div>
-                    <div className={styles.client}>
-                        <Image
-                            src="/clients/png/dudek-bock-logo.png"
-                            alt="Dudek & Bock"
-                            className={styles.clientLogo}
-                            width={161}
-                            height={137}
-                            priority
-                        />
-                    </div>
-                    <div className={styles.client}>
-                        <Image
-                            src="/clients/png/hari masa.png"
-                            alt="hari masa"
-                            className={styles.clientLogo}
-                            width={161}
-                            height={137}
-                            priority
-                        />
-                    </div>
+                    
+                    
                     <div className={styles.client}>
                         <Image
                             src="/clients/png/IMMI.jpeg"
@@ -247,16 +147,7 @@ export default function Clients(){
                             priority
                         />
                     </div>
-                    <div className={styles.client}>
-                        <Image
-                            src="/clients/png/jugosa.png"
-                            alt="jugosa.png"
-                            className={styles.clientLogo}
-                            width={161}
-                            height={137}
-                            priority
-                        />
-                    </div>
+                    
                     <div className={styles.client}>
                         <Image
                             src="/clients/png/Mubea_logo.svg.png"
@@ -267,16 +158,7 @@ export default function Clients(){
                             priority
                         />
                     </div>
-                    <div className={styles.client}>
-                        <Image
-                            src="/clients/png/solvay-pharmaceuticals.png"
-                            alt="solvay-pharmaceuticals"
-                            className={styles.clientLogo}
-                            width={161}
-                            height={137}
-                            priority
-                        />
-                    </div>
+                    
                     <div className={styles.client}>
                         <Image
                             src="/clients/png/Delfingen Industry.gif"
@@ -297,10 +179,11 @@ export default function Clients(){
                             priority
                         />
                     </div>
+                    
                     <div className={styles.client}>
                         <Image
-                            src="/clients/png/pemsa3.png"
-                            alt="pemsa3"
+                            src="/clients/png/logo maprid.jpg"
+                            alt="logo maprid"
                             className={styles.clientLogo}
                             width={161}
                             height={137}
@@ -309,24 +192,17 @@ export default function Clients(){
                     </div>
                     <div className={styles.client}>
                         <Image
-                            src="/clients/png/spiral-logistics-squarelogo-1641896369361.png"
-                            alt="spiral-logistics"
+                            src="/clients/png/LOGO WINDSOR.jpg"
+                            alt="LOGO WINDSOR"
                             className={styles.clientLogo}
                             width={161}
                             height={137}
                             priority
                         />
                     </div>
-                    <div className={styles.client}>
-                        <Image
-                            src="/clients/png/faurecia.png"
-                            alt="faurecia"
-                            className={styles.clientLogo}
-                            width={161}
-                            height={137}
-                            priority
-                        />
-                    </div>
+                    
+                    
+                    
                 </div>
             
             </div>
