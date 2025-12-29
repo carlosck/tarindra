@@ -56,6 +56,20 @@
     max-width: 450px;
     letter-spacing: 1px;
 }
+.presentacionLink{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #00d0d0;
+    text-decoration: none;    
+    border-radius: 5px;
+    font-size: 24px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.presentacionLink:hover{
+    background-color: #00bcbc;
+    color: white;
+}
 @media (min-width: 1024px) {
     .descriptionContent{
         font-size: 20px;

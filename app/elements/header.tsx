@@ -34,7 +34,8 @@ export default function Header(props:any){
                     <h2 className={styles.descriptionTitle}>
                         Rapidez y calidad garantizada
                     </h2>
-                    <p  className={styles.descriptionContent}>Somos fabricantes de tarimas y empaques industriales a la medida y necesidad de cada cliente.</p>
+                    <p className={styles.descriptionContent}>Somos fabricantes de tarimas y empaques industriales a la medida y necesidad de cada cliente.</p>
+                    <a href='https://tarindra.com/presentacion' className={styles.presentacionLink} > Descargar presentación </a>
                 </div>
             </div>
         </div>
